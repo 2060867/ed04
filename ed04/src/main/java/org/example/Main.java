@@ -1,5 +1,12 @@
 package org.example;
 
+/**
+ * @author Pedro Galera
+ * @version 1.0
+ * @since 09/03/2024
+ * @see Contacto
+ * @see Agenda
+ */
 public class Main {
     public static void main(String[] args) {
         // Crear una nueva agenda.
