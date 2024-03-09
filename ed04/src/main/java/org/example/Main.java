@@ -4,7 +4,7 @@ package org.example;
  * @author Pedro Galera
  * @version 1.0
  * @since 09/03/2024
- * @see Contacto
+ * @see Persona
  * @see Agenda
  */
 public class Main {
@@ -23,7 +23,7 @@ public class Main {
 
         // Imprimir todos los contactos de la agendaContactos.
         System.out.println("Todos los contactos: ");
-        for (Contacto c : agendaContactos.getContacts()) {
+        for (Persona c : agendaContactos.getContacts()) {
             System.out.println(c.getName() + " -> " + c.getPhones());
         }
 
@@ -37,7 +37,7 @@ public class Main {
         agendaContactos.modifyPhoneNumber("John Doe", "1234567890", "6666666666");
 
         System.out.println("\nDespués de añadir, eliminar y modificar contactos: ");
-        for (Contacto c : agendaContactos.getContacts()) {
+        for (Persona c : agendaContactos.getContacts()) {
             System.out.println(c.getName() + " -> " + c.getPhones());
         }
     }
